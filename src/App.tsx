@@ -50,10 +50,14 @@ function App() {
                 <p>
                     Edit <code>src/App.tsx</code> and save to test HMR
                 </p>
+                <div />
             </div>
             <p className={styles['read-the-docs']}>
                 Click on the Vite and React logos to learn more
             </p>
+            <div>
+                <form><label>First name:</label><br /><input type="text" /><br /><label>Last name:</label><br /><input type="text" /><br /><br /><input type="submit" value="Submit" /></form>
+            </div>
         </div>
     );
 }
